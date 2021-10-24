@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.itemlist{
+  /* background-image: url(./Component/scene.jpg); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  align-items: center;
+  background-color: antiquewhite;
+  border-radius: 1rem;
+  color: rgb(3, 3, 3);
+  display: inline-block;
+  height: 20rem;
+  width: 20rem;
+}
+h2{
+  background-color: darkgoldenrod;
+}
+.container{
+  background-image: url(./Component/weatherbg.jpg);
+  background-size: cover;
+  height: 100vh;
+}
