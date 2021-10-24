@@ -1,3 +1,6 @@
+![Capture](https://user-images.githubusercontent.com/45038126/138608122-7b1d663e-98f4-47b5-b777-5aa35601ef75.JPG)
+![Capture2](https://user-images.githubusercontent.com/45038126/138608148-d3457d88-782a-494a-afb9-8320fde94346.JPG)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -20,6 +23,7 @@ Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
+
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
