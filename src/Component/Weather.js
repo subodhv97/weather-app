@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Button, InputGroup, FormControl, ListGroup, Card } from 'react-bootstrap';
+import { Button, Card } from 'react-bootstrap';
 import axios from 'axios';
-import { FaBeer, FaTemperatureLow, GiSunrise, GiSunset, WiHumidity } from 'react-icons/all';
+import {  FaTemperatureLow, GiSunrise, GiSunset, WiHumidity } from 'react-icons/all';
 
 function Weather() {
     const key = '0cf93cb4d11746fb47b6d681034556f7';
@@ -43,7 +43,7 @@ function Weather() {
 
         });
     }, [city_name]);
-  //  C:\Users\Sverm\Desktop\react\weather-app\src\Component\scene.jpg
+  
     return (
 
         <div >
@@ -60,6 +60,7 @@ function Weather() {
             <br/>
             <br/>
             <div className="itemlist" >
+                
                 <Card >
                     <Card.Body>
                         <Card.Title><h2>{name} , {country}</h2></Card.Title>
